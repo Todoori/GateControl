@@ -1,0 +1,1 @@
+# For easier it is a good Idea to export your schematic and pcb as PDF or Image, store them in here and display them in your main/readme. If you do not change their name but only update the file, you do not have to change the readme

@@ -556,9 +556,6 @@
     (pin "2" (uuid fbe0c996-0de1-4a7c-97a7-0a8460252f61))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "J_IN2") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "J_IN2") (unit 1)
         )
@@ -574,7 +571,7 @@
   (symbol (lib_id "power:+5V") (at 77.47 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 14880738-1996-4711-8765-8d09db10d852)
-    (property "Reference" "#PWR07" (at 77.47 34.29 0)
+    (property "Reference" "#PWR013" (at 77.47 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 77.47 25.4 0)
@@ -589,9 +586,6 @@
     (pin "1" (uuid 5b79641c-b762-4105-8760-448896ebdf89))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "#PWR013") (unit 1)
         )
@@ -607,7 +601,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 77.47 34.29 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 274e5756-ec1f-4b5b-85c9-54d0a9491ff2)
-    (property "Reference" "JP4" (at 80.01 33.02 90)
+    (property "Reference" "JP6" (at 80.01 33.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_2_Open" (at 80.01 35.56 90)
@@ -623,9 +617,6 @@
     (pin "2" (uuid 086afca0-5ec7-4aa6-864c-d6b17752e432))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "JP4") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "JP6") (unit 1)
         )
@@ -657,9 +648,6 @@
     (pin "2" (uuid 429b34a3-9942-4b3b-bc01-eee195c5ee77))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "J_IN1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "J_IN1") (unit 1)
         )
@@ -675,7 +663,7 @@
   (symbol (lib_id "power:GND") (at 71.12 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5c5549bc-6388-45ba-96ec-d52bea148ca3)
-    (property "Reference" "#PWR05" (at 71.12 57.15 0)
+    (property "Reference" "#PWR012" (at 71.12 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 71.12 55.88 0)
@@ -690,9 +678,6 @@
     (pin "1" (uuid 19d9db1b-218d-40e0-ac34-8a5ce6554747))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR05") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "#PWR012") (unit 1)
         )
@@ -708,7 +693,7 @@
   (symbol (lib_id "Jumper:SolderJumper_2_Open") (at 52.07 34.29 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87263cfb-0b5c-4fed-beea-d8a0a797bd78)
-    (property "Reference" "JP2" (at 54.61 33.02 90)
+    (property "Reference" "JP4" (at 54.61 33.02 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SolderJumper_2_Open" (at 54.61 35.56 90)
@@ -724,9 +709,6 @@
     (pin "2" (uuid ca62dac2-6aff-4dea-9996-3f05dc0da2c4))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "JP2") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "JP4") (unit 1)
         )
@@ -742,7 +724,7 @@
   (symbol (lib_id "power:GND") (at 52.07 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b470100c-2219-4874-8e25-ed04f681ecc4)
-    (property "Reference" "#PWR03" (at 52.07 57.15 0)
+    (property "Reference" "#PWR05" (at 52.07 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 55.88 0)
@@ -757,9 +739,6 @@
     (pin "1" (uuid a106efe0-d6b1-4483-95b5-899e34959328))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR03") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "#PWR05") (unit 1)
         )
@@ -800,7 +779,7 @@
   (symbol (lib_id "PCM_Diode_TVS_AKL:P6KE13A") (at 71.12 46.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d657dc1b-5f1d-4354-8b43-8983a2b8a870)
-    (property "Reference" "D1_TVS1" (at 73.66 45.72 90)
+    (property "Reference" "D_TVS1" (at 73.66 45.72 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "P6KE13A" (at 73.66 48.26 90)
@@ -816,9 +795,6 @@
     (pin "2" (uuid 4a1e19c3-8dfc-45af-9231-496c1501836f))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "D1_TVS1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "D_TVS1") (unit 1)
         )
@@ -834,7 +810,7 @@
   (symbol (lib_id "power:GND") (at 109.22 46.99 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e384ee3f-7753-4cf1-863c-83ee02421e9b)
-    (property "Reference" "#PWR013" (at 109.22 53.34 0)
+    (property "Reference" "#PWR08" (at 109.22 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 52.07 0)
@@ -849,9 +825,6 @@
     (pin "1" (uuid f9bbba9e-ce98-42b9-a54d-78f5ea700960))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR013") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "#PWR08") (unit 1)
         )
@@ -867,7 +840,7 @@
   (symbol (lib_id "power:+12V") (at 52.07 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5fcb60c-ec69-49c9-a330-0ed53718fb60)
-    (property "Reference" "#PWR02" (at 52.07 34.29 0)
+    (property "Reference" "#PWR03" (at 52.07 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 52.07 25.4 0)
@@ -882,9 +855,6 @@
     (pin "1" (uuid 1c394388-764e-48f5-8be4-fd2df071a21e))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR02") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
           (reference "#PWR03") (unit 1)
         )

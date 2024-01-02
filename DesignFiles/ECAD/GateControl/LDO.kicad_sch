@@ -438,7 +438,7 @@
   (symbol (lib_id "power:GND") (at 49.53 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 067d9227-253f-479f-aede-e882a16c133a)
-    (property "Reference" "#PWR011" (at 49.53 40.64 0)
+    (property "Reference" "#PWR023" (at 49.53 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 39.37 0)
@@ -453,12 +453,6 @@
     (pin "1" (uuid d4b07d9a-06b2-4421-b476-797c476d1d9f))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR011") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "#PWR023") (unit 1)
         )
@@ -474,7 +468,7 @@
   (symbol (lib_id "PCM_Capacitor_AKL:CP_Radial_D5.0mm_P2.50mm") (at 49.53 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0cb7b1ec-d250-4c69-a7c0-cedeb44e456f)
-    (property "Reference" "C1_47uF1" (at 53.34 28.321 0)
+    (property "Reference" "C_47uF1" (at 53.34 28.321 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CP_Radial_D5.0mm_P2.50mm" (at 53.34 30.861 0)
@@ -490,12 +484,6 @@
     (pin "2" (uuid ce5a58da-fda9-4a04-a117-88baa2e7dcf6))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "C1_47uF1") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
-          (reference "C1_47uF1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "C_47uF1") (unit 1)
         )
@@ -511,7 +499,7 @@
   (symbol (lib_id "PCM_Capacitor_AKL:C_Disc_D5.0mm_W2.5mm_P5.00mm") (at 40.64 30.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 445e7402-f124-4e94-8d6c-7f4787c7ba4f)
-    (property "Reference" "C3_01uF1" (at 21.59 30.48 0)
+    (property "Reference" "C_IC1" (at 21.59 30.48 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_Disc_D5.0mm_W2.5mm_P5.00mm" (at 36.83 49.53 90)
@@ -527,9 +515,6 @@
     (pin "2" (uuid 2908844d-f58e-4ba8-b703-fe83b15c53f0))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "C3_01uF1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "C_IC1") (unit 1)
         )
@@ -551,7 +536,7 @@
     (property "Value" "2k" (at 97.79 92.71 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 93.472 91.44 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 93.472 91.44 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 91.44 0)
@@ -561,9 +546,6 @@
     (pin "2" (uuid 2deaabe2-402a-461e-b578-b40e23fc286e))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "R2_2k1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "R2_2k1") (unit 1)
         )
@@ -594,9 +576,6 @@
     (pin "1" (uuid e21e9edc-1336-4fda-8470-960663a94707))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "#PWR024") (unit 1)
         )
@@ -612,7 +591,7 @@
   (symbol (lib_id "power:+5V") (at 157.48 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 754dfe0f-7910-44a5-97db-6e5f612fad4e)
-    (property "Reference" "#PWR024" (at 157.48 29.21 0)
+    (property "Reference" "#PWR016" (at 157.48 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 157.48 20.32 0)
@@ -627,9 +606,6 @@
     (pin "1" (uuid d926cf2d-a0d2-4f25-bb0d-4a012484be4d))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR024") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "#PWR016") (unit 1)
         )
@@ -645,7 +621,7 @@
   (symbol (lib_id "power:GND") (at 95.25 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92de746e-ea05-4965-b097-37e9a61ca285)
-    (property "Reference" "#PWR023" (at 95.25 101.6 0)
+    (property "Reference" "#PWR015" (at 95.25 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 100.33 0)
@@ -660,9 +636,6 @@
     (pin "1" (uuid cc2398ab-6abf-48ff-9ba5-c1dd969ffbd9))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR023") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "#PWR015") (unit 1)
         )
@@ -678,7 +651,7 @@
   (symbol (lib_id "PCM_Capacitor_AKL:CP_Radial_D5.0mm_P2.50mm") (at 175.26 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 965fd376-2257-4ae9-be15-c795412287a5)
-    (property "Reference" "C1_47uF1" (at 179.07 35.941 0)
+    (property "Reference" "C_47uF2" (at 179.07 35.941 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "CP_Radial_D5.0mm_P2.50mm" (at 179.07 38.481 0)
@@ -694,12 +667,6 @@
     (pin "2" (uuid c3f74246-646e-498c-873c-5ba36d35a337))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "C1_47uF1") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
-          (reference "C1_47uF1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "C_47uF2") (unit 1)
         )
@@ -715,13 +682,13 @@
   (symbol (lib_id "Device:R") (at 104.14 69.85 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96f009f6-2cda-4f02-8ee8-303283979658)
-    (property "Reference" "R3_2k1" (at 104.14 63.5 90)
+    (property "Reference" "R1_1k1" (at 104.14 63.5 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1k" (at 104.14 66.04 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 104.14 71.628 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 104.14 71.628 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 104.14 69.85 0)
@@ -731,9 +698,6 @@
     (pin "2" (uuid 639b37a8-7d99-4757-995b-938963e1dff1))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "R3_2k1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "R1_1k1") (unit 1)
         )
@@ -749,7 +713,7 @@
   (symbol (lib_id "power:GND") (at 40.64 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 988f20b9-d921-4954-93c9-732533bbcc59)
-    (property "Reference" "#PWR022" (at 40.64 40.64 0)
+    (property "Reference" "#PWR011" (at 40.64 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 39.37 0)
@@ -764,9 +728,6 @@
     (pin "1" (uuid c25a2a26-9fac-4e54-a654-355c0c4b87a1))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR022") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "#PWR011") (unit 1)
         )
@@ -782,7 +743,7 @@
   (symbol (lib_id "power:GND") (at 157.48 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa0be9af-829b-4ddd-a623-ffd59f5f15fd)
-    (property "Reference" "#PWR025" (at 157.48 49.53 0)
+    (property "Reference" "#PWR021" (at 157.48 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 157.48 48.26 0)
@@ -797,9 +758,6 @@
     (pin "1" (uuid a213924a-815e-4fd1-ae70-4c4244ddc45c))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR025") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "#PWR021") (unit 1)
         )
@@ -815,7 +773,7 @@
   (symbol (lib_id "power:+12V") (at 80.01 60.96 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bce8c62c-c3c8-4471-baab-da2cea0fad36)
-    (property "Reference" "#PWR021" (at 80.01 64.77 0)
+    (property "Reference" "#PWR022" (at 80.01 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 80.01 55.88 0)
@@ -830,9 +788,6 @@
     (pin "1" (uuid f98e6e4f-833a-4b08-b0d2-befc8c7e5824))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "#PWR022") (unit 1)
         )
@@ -848,7 +803,7 @@
   (symbol (lib_id "power:GND") (at 175.26 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bf7e3750-d883-4ad8-8a8d-cfc4d93b53fe)
-    (property "Reference" "#PWR011" (at 175.26 50.8 0)
+    (property "Reference" "#PWR025" (at 175.26 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 49.53 0)
@@ -863,12 +818,6 @@
     (pin "1" (uuid 987b2e01-f7db-4028-b5e9-edd008fa0a0e))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR011") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
-          (reference "#PWR07") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "#PWR025") (unit 1)
         )
@@ -911,7 +860,7 @@
   (symbol (lib_id "power:+12V") (at 40.64 21.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ec4f9615-8f50-425f-90a7-6943ec4df9db)
-    (property "Reference" "#PWR021" (at 40.64 25.4 0)
+    (property "Reference" "#PWR010" (at 40.64 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 40.64 16.51 0)
@@ -926,9 +875,6 @@
     (pin "1" (uuid f835a462-3ddd-472d-87dd-227d603da332))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "#PWR021") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "#PWR010") (unit 1)
         )
@@ -944,13 +890,13 @@
   (symbol (lib_id "Device:R") (at 95.25 81.28 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eef9572a-4888-43c7-8a13-0fb1a01f8ffb)
-    (property "Reference" "R1_1k1" (at 97.79 80.01 0)
+    (property "Reference" "R2_1k1" (at 97.79 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 97.79 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 93.472 81.28 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 93.472 81.28 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 95.25 81.28 0)
@@ -960,9 +906,6 @@
     (pin "2" (uuid 64abd48c-6438-42ea-92fc-19eb51b82462))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "R1_1k1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "R2_1k1") (unit 1)
         )
@@ -978,7 +921,7 @@
   (symbol (lib_id "PCM_Capacitor_AKL:C_Disc_D5.0mm_W2.5mm_P5.00mm") (at 157.48 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd777f1f-602c-466a-b796-7f9ab75b6723)
-    (property "Reference" "C4_01uF1" (at 161.29 36.83 0)
+    (property "Reference" "C_IC2" (at 161.29 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "C_Disc_D5.0mm_W2.5mm_P5.00mm" (at 157.48 55.88 0)
@@ -994,9 +937,6 @@
     (pin "2" (uuid 5638478b-2b5e-4219-9caa-9c5fb422f68a))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "C4_01uF1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
           (reference "C_IC2") (unit 1)
         )

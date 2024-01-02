@@ -320,11 +320,11 @@
         )
       )
     )
-    (symbol "power:+3V3" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
+    (symbol "power:+3.3V" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -3.81 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "Value" "+3V3" (at 0 3.556 0)
+      (property "Value" "+3.3V" (at 0 3.556 0)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "" (at 0 0 0)
@@ -336,10 +336,10 @@
       (property "ki_keywords" "global power" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Power symbol creates a global label with name \"+3V3\"" (at 0 0 0)
+      (property "ki_description" "Power symbol creates a global label with name \"+3.3V\"" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "+3V3_0_1"
+      (symbol "+3.3V_0_1"
         (polyline
           (pts
             (xy -0.762 1.27)
@@ -365,9 +365,9 @@
           (fill (type none))
         )
       )
-      (symbol "+3V3_1_1"
+      (symbol "+3.3V_1_1"
         (pin power_in line (at 0 0 90) (length 0) hide
-          (name "+3V3" (effects (font (size 1.27 1.27))))
+          (name "+3.3V" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
       )
@@ -488,7 +488,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 46.99 80.01 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 005bf0d6-3a4e-4983-bb13-19ce938e4712)
-    (property "Reference" "J_IN2" (at 48.26 77.47 0)
+    (property "Reference" "J_LED1" (at 48.26 77.47 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 48.26 80.01 0)
@@ -504,12 +504,6 @@
     (pin "2" (uuid 2863d1ad-7d05-4374-bafa-c99404c1d1d7))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "J_IN2") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
-          (reference "J_IN2") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
           (reference "J_LED1") (unit 1)
         )
@@ -522,26 +516,51 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 77.47 34.29 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 121.92 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 04949415-1822-495c-9e4a-cecca3a53696)
-    (property "Reference" "#PWR030" (at 77.47 38.1 0)
+    (uuid 025c7e50-ff25-4d20-8692-ea7d1a145f61)
+    (property "Reference" "#PWR044" (at 121.92 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 77.47 29.21 0)
+    (property "Value" "+3.3V" (at 121.92 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 77.47 34.29 0)
+    (property "Footprint" "" (at 121.92 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 77.47 34.29 0)
+    (property "Datasheet" "" (at 121.92 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid ab31f3f1-aef1-4838-bad1-b275ca3ab1b2))
+    (pin "1" (uuid 5a4f89ba-721e-458f-ae1a-504d372448d1))
     (instances
       (project "GateControl"
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR044") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+3.3V") (at 97.79 86.36 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 0355ce20-5f60-4d87-9177-b114c1a0ba55)
+    (property "Reference" "#PWR046" (at 97.79 90.17 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 97.79 81.28 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 97.79 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 97.79 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 9037645b-49d4-43d8-b704-9ba3d6d402ce))
+    (instances
+      (project "GateControl"
+        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -550,7 +569,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 82.55 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 223cb84f-23b1-4a6f-9c1f-57603de0e351)
-    (property "Reference" "J_IN2" (at 83.82 41.91 0)
+    (property "Reference" "J_BTN2" (at 83.82 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 83.82 44.45 0)
@@ -566,12 +585,6 @@
     (pin "2" (uuid 5ad3c883-6aae-4e02-bff3-909ec719f618))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "J_IN2") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
-          (reference "J_IN2") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
           (reference "J_BTN2") (unit 1)
         )
@@ -587,13 +600,13 @@
   (symbol (lib_id "Device:R") (at 77.47 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ca9665d-e6c8-472f-913e-5568fc6bf130)
-    (property "Reference" "R1_1k1" (at 80.01 36.83 0)
+    (property "Reference" "R1_1k3" (at 80.01 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 80.01 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 75.692 38.1 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 75.692 38.1 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 77.47 38.1 0)
@@ -603,12 +616,6 @@
     (pin "2" (uuid 24bf7b00-0d4c-4501-8ebf-0bee7f23e1b4))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "R1_1k1") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
-          (reference "R1_1k1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
           (reference "R1_1k3") (unit 1)
         )
@@ -699,13 +706,13 @@
   (symbol (lib_id "Device:R") (at 40.64 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8000f11f-5cbf-4e18-b94d-026e3acb6c23)
-    (property "Reference" "R1_1k1" (at 43.18 36.83 0)
+    (property "Reference" "R1_1k2" (at 43.18 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 43.18 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 38.862 38.1 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 38.862 38.1 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 40.64 38.1 0)
@@ -715,12 +722,6 @@
     (pin "2" (uuid cea60c4e-3d4b-4966-a10f-dfa84fb76a4d))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "R1_1k1") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
-          (reference "R1_1k1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
           (reference "R1_1k2") (unit 1)
         )
@@ -736,13 +737,13 @@
   (symbol (lib_id "Device:R") (at 121.92 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b2b623b-8aa7-49f2-82ae-260907ce94b5)
-    (property "Reference" "R1_1k1" (at 124.46 36.83 0)
+    (property "Reference" "R1_1k4" (at 124.46 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 124.46 39.37 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 120.142 38.1 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 120.142 38.1 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 121.92 38.1 0)
@@ -752,12 +753,6 @@
     (pin "2" (uuid 90ef557e-0d2e-4315-be95-f8e8063fd2bf))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "R1_1k1") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
-          (reference "R1_1k1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
           (reference "R1_1k4") (unit 1)
         )
@@ -770,13 +765,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 40.64 34.29 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 40.64 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 93ac3eb9-aefd-483b-9253-463e44ceeb29)
+    (uuid 8f7185a1-1774-46d1-a9ce-a21f0adc5e16)
     (property "Reference" "#PWR029" (at 40.64 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 40.64 29.21 0)
+    (property "Value" "+3.3V" (at 40.64 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 40.64 34.29 0)
@@ -785,7 +780,7 @@
     (property "Datasheet" "" (at 40.64 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid db4e0b9b-3ba3-4d94-92d2-11597e388a0d))
+    (pin "1" (uuid 8f55ed27-814c-4da3-a62c-64592300578d))
     (instances
       (project "GateControl"
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
@@ -795,10 +790,35 @@
     )
   )
 
+  (symbol (lib_id "power:+3.3V") (at 139.7 81.28 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a544d0ea-1cd9-4a8d-94e1-c129ecdc2fd0)
+    (property "Reference" "#PWR048" (at 139.7 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3.3V" (at 139.7 76.2 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 139.7 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 139.7 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5fa78534-c46b-43be-b026-1d0b4f410fbe))
+    (instances
+      (project "GateControl"
+        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
+          (reference "#PWR048") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 45.72 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa1126e8-fc89-4b7d-a3fa-2dd3099a131d)
-    (property "Reference" "J_IN2" (at 46.99 41.91 0)
+    (property "Reference" "J_BTN1" (at 46.99 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 46.99 44.45 0)
@@ -814,12 +834,6 @@
     (pin "2" (uuid cdf6a43c-f700-428d-9e06-06617c703941))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "J_IN2") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
-          (reference "J_IN2") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
           (reference "J_BTN1") (unit 1)
         )
@@ -835,7 +849,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 127 44.45 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7715bd1-b338-4854-ae07-0b035f12d857)
-    (property "Reference" "J_IN2" (at 128.27 41.91 0)
+    (property "Reference" "J_BTN3" (at 128.27 41.91 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 128.27 44.45 0)
@@ -851,12 +865,6 @@
     (pin "2" (uuid 7bd96db4-a61f-48bb-ae6a-18651fa673e4))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "J_IN2") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
-          (reference "J_IN2") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
           (reference "J_BTN3") (unit 1)
         )
@@ -869,51 +877,26 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 121.92 34.29 0) (unit 1)
+  (symbol (lib_id "power:+3.3V") (at 77.47 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid b8598e41-a2ba-4861-8bed-9e259d76ec58)
-    (property "Reference" "#PWR044" (at 121.92 38.1 0)
+    (uuid bf26372c-a787-4f3a-aa0b-5d0ae4f5fbdb)
+    (property "Reference" "#PWR030" (at 77.47 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 121.92 29.21 0)
+    (property "Value" "+3.3V" (at 77.47 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 121.92 34.29 0)
+    (property "Footprint" "" (at 77.47 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 121.92 34.29 0)
+    (property "Datasheet" "" (at 77.47 34.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 17574962-4b0b-4d2f-b685-f943e6d184c7))
+    (pin "1" (uuid de352529-b3cf-4e3f-9f1a-7f1d99b23780))
     (instances
       (project "GateControl"
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
-          (reference "#PWR044") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3V3") (at 97.79 86.36 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid c1f8c85c-c217-4040-b5cd-c4ac152911fd)
-    (property "Reference" "#PWR046" (at 97.79 90.17 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 97.79 81.28 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 97.79 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 97.79 86.36 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7fffa56b-93b8-4704-80ea-204ca920c48c))
-    (instances
-      (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -972,7 +955,7 @@
   (symbol (lib_id "Connector:Conn_01x02_Pin") (at 49.53 146.05 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c913f549-a051-4f91-b420-da58c342115a)
-    (property "Reference" "J_IN2" (at 50.8 143.51 0)
+    (property "Reference" "J_Motor1" (at 50.8 143.51 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "Conn_01x02_Pin" (at 50.8 146.05 0)
@@ -988,12 +971,6 @@
     (pin "2" (uuid 53ef3ce5-ca88-4bda-b85d-d1f630d7251f))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "J_IN2") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/c2c7e3a0-f057-409b-9aed-6370f4d662e9"
-          (reference "J_IN2") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
           (reference "J_Motor1") (unit 1)
         )
@@ -1031,31 +1008,6 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 139.7 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid cf8b0191-8828-49d9-acce-c24de8ed8c23)
-    (property "Reference" "#PWR048" (at 139.7 85.09 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3V3" (at 139.7 76.2 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 139.7 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 139.7 81.28 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b496435f-6a7a-4526-9e29-96245df8db16))
-    (instances
-      (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
-          (reference "#PWR048") (unit 1)
-        )
-      )
-    )
-  )
-
   (symbol (lib_id "Connector:Conn_01x04_Pin") (at 163.83 82.55 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d7d9dda8-ee95-449a-b406-9d27ba1131bb)
@@ -1087,13 +1039,13 @@
   (symbol (lib_id "Device:R") (at 34.29 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e58c8cb9-494d-4fbb-bba6-093fc02b9455)
-    (property "Reference" "R2_2k1" (at 34.29 71.12 90)
+    (property "Reference" "R_LED2" (at 34.29 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2k" (at 34.29 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P12.70mm_Horizontal" (at 34.29 79.248 90)
+    (property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 34.29 79.248 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 34.29 77.47 0)
@@ -1103,12 +1055,6 @@
     (pin "2" (uuid 878882ac-ccc8-46db-864d-caae73f6980c))
     (instances
       (project "GateControl"
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e"
-          (reference "R2_2k1") (unit 1)
-        )
-        (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/be56862b-4341-4ca2-aaa8-80cb2fe675d5"
-          (reference "R2_2k1") (unit 1)
-        )
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
           (reference "R_LED2") (unit 1)
         )

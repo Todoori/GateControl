@@ -600,7 +600,7 @@
   (symbol (lib_id "Device:R") (at 77.47 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ca9665d-e6c8-472f-913e-5568fc6bf130)
-    (property "Reference" "R1_1k3" (at 80.01 36.83 0)
+    (property "Reference" "R10k_2" (at 80.01 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 80.01 39.37 0)
@@ -617,7 +617,7 @@
     (instances
       (project "GateControl"
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
-          (reference "R1_1k3") (unit 1)
+          (reference "R10k_2") (unit 1)
         )
       )
       (project "PicoBreakout"
@@ -706,7 +706,7 @@
   (symbol (lib_id "Device:R") (at 40.64 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8000f11f-5cbf-4e18-b94d-026e3acb6c23)
-    (property "Reference" "R1_1k2" (at 43.18 36.83 0)
+    (property "Reference" "R10k_1" (at 43.18 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 43.18 39.37 0)
@@ -723,7 +723,7 @@
     (instances
       (project "GateControl"
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
-          (reference "R1_1k2") (unit 1)
+          (reference "R10k_1") (unit 1)
         )
       )
       (project "PicoBreakout"
@@ -737,7 +737,7 @@
   (symbol (lib_id "Device:R") (at 121.92 38.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8b2b623b-8aa7-49f2-82ae-260907ce94b5)
-    (property "Reference" "R1_1k4" (at 124.46 36.83 0)
+    (property "Reference" "R10k_3" (at 124.46 36.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1k" (at 124.46 39.37 0)
@@ -754,7 +754,7 @@
     (instances
       (project "GateControl"
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
-          (reference "R1_1k4") (unit 1)
+          (reference "R10k_3") (unit 1)
         )
       )
       (project "PicoBreakout"
@@ -1039,7 +1039,7 @@
   (symbol (lib_id "Device:R") (at 34.29 77.47 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e58c8cb9-494d-4fbb-bba6-093fc02b9455)
-    (property "Reference" "R_LED2" (at 34.29 71.12 90)
+    (property "Reference" "R2k_2" (at 34.29 71.12 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "2k" (at 34.29 73.66 90)
@@ -1056,7 +1056,7 @@
     (instances
       (project "GateControl"
         (path "/26f853d6-e6b1-4331-a3c6-efb3fa07d05e/bd3f696f-e467-435d-89b5-b76fd58161f1"
-          (reference "R_LED2") (unit 1)
+          (reference "R2k_2") (unit 1)
         )
       )
       (project "PicoBreakout"
